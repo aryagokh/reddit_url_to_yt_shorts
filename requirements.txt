@@ -1,55 +1,12 @@
-# Core ML/AI frameworks
-torch==2.6.0+cu124     #pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu124
-torchaudio==2.6.0+cu124
-torchvision==0.21.0+cu124
-transformers==4.33.0
-
-# TTS and Audio
-TTS==0.22.0
-openai-whisper==20250625
-librosa==0.10.0
-
-# LangChain ecosystem
-langchain==1.0.2
-langchain-google-genai==3.0.0
-langgraph==1.0.1
-
-# Google AI
+better-ffmpeg-progress==4.0.1
+google==3.0.0
+google-genai==1.46.0
 google-generativeai==0.8.5
-google-cloud-texttospeech==2.32.0
-
-# NLP
-spacy==3.8.7
-nltk==3.9.2
-
-# Web and API
-streamlit==1.51.0
-flask==3.1.2
-requests==2.32.5
-aiohttp==3.13.1
-
-# Data science
-pandas==2.3.3
-numpy==2.2.6
-scikit-learn==1.7.2
-matplotlib==3.8.4
-seaborn==0.13.2
-
-# Jupyter
-jupyterlab==4.4.10
-
-# Video/Media
 moviepy==2.2.1
-opencv-python==4.12.0.88
-pytube==15.0.0
-yt-dlp==2025.10.22
-
-# Reddit API
+openai-whisper==20250625
+pandas==2.3.3
 praw==7.8.1
-
-# Utilities
 python-dotenv==1.1.1
-tqdm==4.67.1
-pillow==11.3.0
-pyyaml==6.0.3
-beautifulsoup4==4.14.2
+
+# Please run following command if you have GPU to speed shorts generation 100x
+# pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
