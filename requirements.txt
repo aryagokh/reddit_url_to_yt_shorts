@@ -9,4 +9,4 @@ praw==7.8.1
 python-dotenv==1.1.1
 
 # Please run following command if you have GPU to speed shorts generation 100x
-# pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+# pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu124
